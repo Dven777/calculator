@@ -1,0 +1,57 @@
+Index: app/src/androidTest/java/com/example/calculator/ExampleInstrumentedTest.kt
+===================================================================
+diff --git a/app/src/androidTest/java/com/example/calculator/ExampleInstrumentedTest.kt b/app/src/androidTest/java/com/example/calculator/ExampleInstrumentedTest.kt
+deleted file mode 100644
+--- a/app/src/androidTest/java/com/example/calculator/ExampleInstrumentedTest.kt	(revision c473c824ce25a44f250961fc48594eebd0c363aa)
++++ /dev/null	(revision c473c824ce25a44f250961fc48594eebd0c363aa)
+@@ -1,24 +0,0 @@
+-package com.example.calculator
+-
+-import androidx.test.platform.app.InstrumentationRegistry
+-import androidx.test.ext.junit.runners.AndroidJUnit4
+-
+-import org.junit.Test
+-import org.junit.runner.RunWith
+-
+-import org.junit.Assert.*
+-
+-/**
+- * Instrumented test, which will execute on an Android device.
+- *
+- * See [testing documentation](http://d.android.com/tools/testing).
+- */
+-@RunWith(AndroidJUnit4::class)
+-class ExampleInstrumentedTest {
+-    @Test
+-    fun useAppContext() {
+-        // Context of the app under test.
+-        val appContext = InstrumentationRegistry.getInstrumentation().targetContext
+-        assertEquals("com.example.calculator", appContext.packageName)
+-    }
+-}
+\ No newline at end of file
+Index: app/src/test/java/com/example/calculator/ExampleUnitTest.kt
+===================================================================
+diff --git a/app/src/test/java/com/example/calculator/ExampleUnitTest.kt b/app/src/test/java/com/example/calculator/ExampleUnitTest.kt
+deleted file mode 100644
+--- a/app/src/test/java/com/example/calculator/ExampleUnitTest.kt	(revision c473c824ce25a44f250961fc48594eebd0c363aa)
++++ /dev/null	(revision c473c824ce25a44f250961fc48594eebd0c363aa)
+@@ -1,17 +0,0 @@
+-package com.example.calculator
+-
+-import org.junit.Test
+-
+-import org.junit.Assert.*
+-
+-/**
+- * Example local unit test, which will execute on the development machine (host).
+- *
+- * See [testing documentation](http://d.android.com/tools/testing).
+- */
+-class ExampleUnitTest {
+-    @Test
+-    fun addition_isCorrect() {
+-        assertEquals(4, 2 + 2)
+-    }
+-}
+\ No newline at end of file
